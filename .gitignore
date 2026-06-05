@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Logs
+*.log
+nohup.out
+
+# Model checkpoints & adapter weights
+runs/
+outputs*/
+epoch_*/
+*.safetensors
+adapter_model*
+adapter_config.json
+tokenizer*.json
+vocab.json
+merges.txt
+added_tokens.json
+special_tokens_map.json
+preprocessor_config.json
+processor_config.json
+chat_template.jinja
+README.md.bak
+
+# HuggingFace cache
+cache_dir/
+.cache/
+
+# Augmented audio
+aug_wavs/
+rebuilt_v1/
+
+# Temporary eval shards
+tmp_ep*.csv
+
+# Results & intermediate outputs
+results/
+*.log.csv
+
+# Editor & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
