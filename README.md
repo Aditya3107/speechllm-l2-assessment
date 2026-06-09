@@ -96,16 +96,6 @@ The `data/` folders in each subdirectory contain pre-formatted DPO training CSV 
 
 ---
 
-## Training
-
-All training scripts use the hybrid loss:
-
-$$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{BDPO}} + \lambda \cdot \mathcal{L}_{\text{SFT}}, \quad \lambda = 1.0$$
-
-with BDPO hyperparameters β = 0.1, α = 0.5. Effective batch size = 16 (batch\_size=1, grad\_accum=16).
-
----
-
 ### Single-Granularity Models (BDPO-S)
 
 Each model is fine-tuned independently for a single dimension.
