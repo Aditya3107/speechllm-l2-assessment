@@ -80,7 +80,7 @@ pip install -r requirements.txt
 
 ## Data
 
-This work uses the **SpeechOcean762** dataset ([openslr.org/111](https://www.openslr.org/111/)), which contains 5000 English read-speech utterances (2500 train / 2500 test) with sentence-, word-, and phoneme-level human annotations.
+This work uses the **SpeechOcean762** dataset, which contains 5000 English read-speech utterances (2500 train / 2500 test) with sentence-, word-, and phoneme-level human annotations.
 
 The `data/` folders in each subdirectory contain pre-formatted DPO training CSV files with the following columns:
 
