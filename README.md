@@ -161,7 +161,19 @@ python eval_rationale_mentions.py
 
 ## Citation
 
-Soon on arxiv.
+If you use this work, please cite the paper using the following BibTeX entry:
+
+```bibtex
+@misc{parikh2026finetunedspeechllmjointmultigranular,
+      title={A Finetuned SpeechLLM for Joint Multi-Granular L2 Assessment and Natural-Language Rationales}, 
+      author={Aditya Kamlesh Parikh and Cristian Tejedor-Garcia and Catia Cucchiarini and Helmer Strik},
+      year={2026},
+      eprint={2606.09470},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={[https://arxiv.org/abs/2606.09470](https://arxiv.org/abs/2606.09470)}, 
+}
+
 
 ---
 
